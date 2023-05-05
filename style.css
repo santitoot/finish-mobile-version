@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  background-image: url("assets/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+nav {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 16px;
+}
+
+nav > a {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  width: 76px;
+  height: 20;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.line {
+  width: 18px;
+  height: 3px;
+  margin: 1px;
+  background-color: #6070ff;
+  border-radius: 2px;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.profile > h1 {
+  margin-top: 128px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.profile > main {
+  margin-top: 12px;
+}
+
+.profile > p {
+  text-transform: uppercase;
+  color: #7f8cff;
+  margin-top: 20px;
+}
+
+.profile > main > p {
+  color: #344563;
+}
+
+.social-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.social-container ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.social-container li {
+  margin-right: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
