@@ -2,11 +2,10 @@
 
 body {
   font-family: Poppins, sans-serif;
-  background-color: #e5e5e5;
+  background-color:#e5e5e5;
 }
-
 header {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -62,7 +61,7 @@ nav > a {
   display: flex;
   flex-direction: column;
   padding: 24px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-bottom-left-radius: 80px;
 }
 
@@ -76,152 +75,12 @@ nav > a {
   margin-top: 12px;
 }
 
-.profile > p {
+.profile > h2 {
   text-transform: uppercase;
   color: #7f8cff;
   margin-top: 20px;
-}
-
-.text-container > p {
-  text-align: left;
-  margin-right: 12px;
-}
-
-.tonic > p {
-  color: #344563;
-  font-size: 15px;
-  margin-top: 12px;
-}
-
-.boton > p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-}
-
-.multi > p {
-  color: #344563;
-  font-size: 15px;
-  margin-top: 12px;
-}
-
-.boton p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-}
-
-.tonic-2 > p {
-  color: #344563;
-  font-size: 15px;
-  margin-top: 12px;
-}
-
-.text-container-1 > p {
-  text-align: left;
-  margin-right: 12px;
-  color: #6070ff;
-  background-color: #ebebff;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  border-radius: 8px;
-  order: 2;
-}
-
-.multi-2 > p {
-  color: #344563;
-  font-size: 15px;
-  margin-top: 12px;
-}
-
-.about-myself > p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 24px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-top: 12px;
-}
-
-.el-boton p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 24px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-}
-
-.lenguages p {
-  display: flex;
-  align-items: center;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  margin-left: 16px;
-}
-
-.lenguages-ht p {
-  display: flex;
-  align-items: center;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  margin-left: 16px;
-}
-
-.lenguages-cs p {
-  display: flex;
-  align-items: center;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  margin-left: 16px;
-}
-
-.class > p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 108px;
-}
-
-.fram p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 36px;
 }
 
 .profile > main > p {
@@ -262,13 +121,21 @@ nav > a {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 114px;
+
 }
 
-.tonic > h1 {
+.imagen-contenedor {
+  display: flex;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.tonic > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -282,6 +149,17 @@ nav > a {
 
 .container {
   display: flex;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text-container > p {
+  text-align: left;
+  margin-right: 12px;
 }
 
 .cano {
@@ -302,15 +180,42 @@ nav > a {
   height: 8px;
 }
 
+.tonic > p {
+  color: #344563;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
 .languages {
   display: flex;
+}
+
+.text-container-1 > p {
+  text-align: left;
+  margin-right: 12px;
+  color: #6070ff;
+  background-color: #ebebff;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  order: 2;
+}
+
+.boton  p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
 }
 
 .my-button {
   display: flex;
   flex-direction: row;
   padding: 12px;
-  gap: 10px;
+  gap: 10px; 
   background-color: white;
   border: 1px solid #6070ff;
   width: 126px;
@@ -329,10 +234,11 @@ nav > a {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 88px;
+
 }
 
 .imagen-contenedor {
@@ -342,7 +248,7 @@ nav > a {
   border-radius: 8px;
 }
 
-.multi > h1 {
+.multi > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -354,17 +260,75 @@ nav > a {
   color: #172b4d;
 }
 
+.container {
+  display: flex;
+}
+
 .text-container {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
 
-.my-button-1 {
+.text-container > p {
+  text-align: left;
+  margin-right: 12px;
+}
+
+.cano {
+  font-size: 13px;
+  color: #344563;
+  font-weight: 700;
+}
+
+.nopi {
+  font-size: 13px;
+  margin-left: 12px;
+  color: #7a869a;
+  font-weight: 600;
+}
+
+.text-container > img {
+  width: 8px;
+  height: 8px;
+}
+
+.multi > p {
+  color: #344563;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.languages {
+  display: flex;
+}
+
+.text-container-1 > p {
+  text-align: left;
+  margin-right: 12px;
+  color: #6070ff;
+  background-color: #ebebff;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  order: 2;
+}
+
+.boton  p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.my-button {
   display: flex;
   flex-direction: row;
   padding: 12px;
-  gap: 10px;
+  gap: 10px; 
   background-color: white;
   border: 1px solid #6070ff;
   width: 126px;
@@ -383,13 +347,21 @@ nav > a {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 88px;
+
 }
 
-.tonic-2 > h1 {
+.imagen-contenedor {
+  display: flex;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.tonic-2 > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -401,11 +373,75 @@ nav > a {
   color: #172b4d;
 }
 
-.my-button-2 {
+.container {
+  display: flex;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text-container > p {
+  text-align: left;
+  margin-right: 12px;
+}
+
+.cano {
+  font-size: 13px;
+  color: #344563;
+  font-weight: 700;
+}
+
+.nopi {
+  font-size: 13px;
+  margin-left: 12px;
+  color: #7a869a;
+  font-weight: 600;
+}
+
+.text-container > img {
+  width: 8px;
+  height: 8px;
+}
+
+.tonic-2 > p {
+  color: #344563;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.languages {
+  display: flex;
+}
+
+.text-container-1 > p {
+  text-align: left;
+  margin-right: 12px;
+  color: #6070ff;
+  background-color: #ebebff;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  order: 2;
+}
+
+.boton  p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.my-button {
   display: flex;
   flex-direction: row;
   padding: 12px;
-  gap: 10px;
+  gap: 10px; 
   background-color: white;
   border: 1px solid #6070ff;
   width: 126px;
@@ -424,13 +460,21 @@ nav > a {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 88px;
+
 }
 
-.multi-2 > h1 {
+.imagen-contenedor {
+  display: flex;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.multi-2 > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -442,11 +486,75 @@ nav > a {
   color: #172b4d;
 }
 
-.my-button-3 {
+.container {
+  display: flex;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text-container > p {
+  text-align: left;
+  margin-right: 12px;
+}
+
+.cano {
+  font-size: 13px;
+  color: #344563;
+  font-weight: 700;
+}
+
+.nopi {
+  font-size: 13px;
+  margin-left: 12px;
+  color: #7a869a;
+  font-weight: 600;
+}
+
+.text-container > img {
+  width: 8px;
+  height: 8px;
+}
+
+.multi-2 > p {
+  color: #344563;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.languages {
+  display: flex;
+}
+
+.text-container-1 > p {
+  text-align: left;
+  margin-right: 12px;
+  color: #6070ff;
+  background-color: #ebebff;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  order: 2;
+}
+
+.boton  p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.my-button {
   display: flex;
   flex-direction: row;
   padding: 12px;
-  gap: 10px;
+  gap: 10px; 
   background-color: white;
   border: 1px solid #6070ff;
   width: 126px;
@@ -463,12 +571,12 @@ nav > a {
   display: flex;
   flex-direction: column;
   padding: 24px;
-  background-color: #fff;
+  background-color: #ffffff;
   margin-top: 114px;
   border-top-right-radius: 80px;
 }
 
-.about-myself h1 {
+.about-myself h4 {
   width: 327px;
   height: 35px;
   font-family: Poppins, sans-serif;
@@ -478,11 +586,11 @@ nav > a {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172b4d;
+  color: #172B4D;
   margin-top: 114px;
 }
 
-.about-myself > main > p {
+.about-myself > main > p {  
   width: 327px;
   height: 147px;
   font-family: Poppins, sans-serif;
@@ -495,12 +603,27 @@ nav > a {
   margin-top: 12px;
 }
 
+.about-myself > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-top: 12px;
+}
+
 .el-boton {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  gap: 10px;
+  gap: 10px; 
   background-color: white;
   border: 1px solid #6070ff;
   width: 162px;
@@ -508,6 +631,20 @@ nav > a {
   border-radius: 8px;
   cursor: pointer;
   margin-top: 22px;
+}
+
+.el-boton p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396DF2;
 }
 
 .social {
@@ -526,7 +663,7 @@ nav > a {
   margin-right: 20px;
 }
 
-h2 {
+h3 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -544,7 +681,7 @@ h2 {
   margin-top: 36px;
   margin-left: 16px;
   border-radius: 8px;
-}
+} 
 
 .lenguages img {
   display: flex;
@@ -556,6 +693,18 @@ h2 {
   margin-left: 12px;
 }
 
+.lenguages p {
+  display: flex;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
 .lenguages-ht {
   display: flex;
   background: #f7f7f9;
@@ -564,7 +713,7 @@ h2 {
   margin-top: 12px;
   margin-left: 16px;
   border-radius: 8px;
-}
+} 
 
 .lenguages-ht img {
   display: flex;
@@ -576,6 +725,18 @@ h2 {
   margin-left: 12px;
 }
 
+.lenguages-ht p {
+  display: flex;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
 .lenguages-cs {
   display: flex;
   background: #f7f7f9;
@@ -584,7 +745,7 @@ h2 {
   margin-top: 12px;
   margin-left: 16px;
   border-radius: 8px;
-}
+} 
 
 .lenguages-cs img {
   display: flex;
@@ -596,12 +757,34 @@ h2 {
   margin-left: 12px;
 }
 
+.lenguages-cs p {
+  display: flex;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
 .fram {
   display: flex;
   width: 3px;
   height: 1px;
   margin-top: 12px;
   margin-left: 16px;
+  
+}
+
+.fram p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 36px;
 }
 
 .fram img {
@@ -621,6 +804,15 @@ h2 {
   margin-left: 16px;
 }
 
+.class p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 108px;
+}
+
 .class img {
   display: flex;
   justify-content: center;
@@ -628,4 +820,8 @@ h2 {
   height: 12px;
   margin-top: 114px;
   margin-left: 215px;
+}
+
+ul {
+  list-style-type: none;
 }
