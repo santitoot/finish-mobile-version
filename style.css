@@ -139,7 +139,7 @@ nav > a {
   display: flex;
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -203,7 +203,7 @@ nav > a {
 }
 
 .boton  p {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -252,7 +252,7 @@ nav > a {
   display: flex;
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -316,7 +316,7 @@ nav > a {
 }
 
 .boton  p {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -365,7 +365,7 @@ nav > a {
   display: flex;
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -429,7 +429,7 @@ nav > a {
 }
 
 .boton  p {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -478,7 +478,7 @@ nav > a {
   display: flex;
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -542,7 +542,7 @@ nav > a {
 }
 
 .boton  p {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -579,7 +579,7 @@ nav > a {
 .about-myself h4 {
   width: 327px;
   height: 35px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -593,7 +593,7 @@ nav > a {
 .about-myself > main > p {  
   width: 327px;
   height: 147px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -609,7 +609,7 @@ nav > a {
   align-items: center;
   width: 120px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -639,7 +639,7 @@ nav > a {
   align-items: center;
   width: 150px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -664,7 +664,7 @@ nav > a {
 }
 
 h3 {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -696,7 +696,7 @@ h3 {
 .lenguages p {
   display: flex;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -728,7 +728,7 @@ h3 {
 .lenguages-ht p {
   display: flex;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -760,7 +760,7 @@ h3 {
 .lenguages-cs p {
   display: flex;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -779,7 +779,7 @@ h3 {
 }
 
 .fram p {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -805,7 +805,7 @@ h3 {
 }
 
 .class p {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
