@@ -75,10 +75,12 @@ nav > a {
   margin-top: 12px;
 }
 
-.profile > p {
+.profile > h2 {
   text-transform: uppercase;
   color: #7f8cff;
   margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .profile > main > p {
@@ -133,7 +135,7 @@ nav > a {
   border-radius: 8px;
 }
 
-.tonic > h1 {
+.tonic > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -246,7 +248,7 @@ nav > a {
   border-radius: 8px;
 }
 
-.multi > h1 {
+.multi > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -359,7 +361,7 @@ nav > a {
   border-radius: 8px;
 }
 
-.tonic-2 > h1 {
+.tonic-2 > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -472,7 +474,7 @@ nav > a {
   border-radius: 8px;
 }
 
-.multi-2 > h1 {
+.multi-2 > h5 {
   display: flex;
   width: 295px;
   height: 36px;
@@ -574,7 +576,7 @@ nav > a {
   border-top-right-radius: 80px;
 }
 
-.about-myself h1 {
+.about-myself h4 {
   width: 327px;
   height: 35px;
   font-family: 'Poppins';
@@ -601,7 +603,7 @@ nav > a {
   margin-top: 12px;
 }
 
-.about-myself > p {
+.about-myself > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -661,7 +663,7 @@ nav > a {
   margin-right: 20px;
 }
 
-h2 {
+h3 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -820,3 +822,6 @@ h2 {
   margin-left: 215px;
 }
 
+ul {
+  list-style-type: none;
+}
