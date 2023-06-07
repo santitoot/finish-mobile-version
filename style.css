@@ -588,7 +588,6 @@ h3 {
 .contact-me {
   position: absolute;
   width: 100%;
-  height: 779px;
   left: 0px;
   background: #6070ff;
   border-top-left-radius: 80px;
@@ -673,4 +672,20 @@ textarea {
   line-height: 24px;
   color: #396df2;
   padding-top: 20px;
+}
+
+.background {
+  background-image: url(assets/contact-form.png);
+  padding: 90px 24px;
+  border-top-left-radius: 90px;
+  background-size: contain, cover;
+  background-position: right;
+  background-clip: padding-box, padding-box;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: stretch;
+  justify-content: center;
+  color: #fff;
 }
