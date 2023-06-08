@@ -200,6 +200,7 @@ nav > a {
   font-size: 20px;
   line-height: 24px;
   margin-top: 108px;
+<<<<<<< HEAD
 }
 
 .contact-me p {
@@ -227,6 +228,8 @@ nav > a {
   line-height: 24px;
   color: #396df2;
   padding-top: 20px;
+=======
+>>>>>>> 1a568b22074ddec576a2aaefe00b1cde8d6911c2
 }
 
 .profile > main > p {
@@ -450,7 +453,11 @@ ul {
 }
 
 .about-myself > main > p {
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 327px;
+>>>>>>> 1a568b22074ddec576a2aaefe00b1cde8d6911c2
   height: 147px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -611,6 +618,7 @@ h3 {
   margin-top: 114px;
   margin-left: 215px;
 }
+<<<<<<< HEAD
 
 .contact-me {
   position: absolute;
@@ -689,3 +697,5 @@ textarea {
   color: #fff;
   margin-top: 21px;
 }
+=======
+>>>>>>> 1a568b22074ddec576a2aaefe00b1cde8d6911c2
