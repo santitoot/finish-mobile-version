@@ -202,6 +202,33 @@ nav > a {
   margin-top: 108px;
 }
 
+.contact-me p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.el-botones p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  padding-top: 20px;
+}
+
 .profile > main > p {
   color: #344563;
 }
@@ -588,7 +615,6 @@ h3 {
 .contact-me {
   position: absolute;
   width: 100%;
-  left: 0px;
   background: #6070ff;
   border-top-left-radius: 80px;
 }
@@ -599,33 +625,21 @@ h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
-  margin-top: 103px;
+  color: #fff;
+  margin-top: 82px;
   text-align: center;
-}
-
-.contact-me p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ebebff;
-  text-align: center;
-  margin-top: 12px;
-  margin-bottom: 32px;
 }
 
 .loremipsum {
   position: absolute;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 input {
   display: block;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
-  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  background: #fff;
   width: 327px;
   height: 48px;
   margin-top: 20px;
@@ -635,8 +649,8 @@ input {
 textarea {
   display: block;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
-  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  background: #fff;
   margin-top: 18px;
   width: 327px;
   height: 170px;
@@ -659,24 +673,8 @@ textarea {
   margin-left: 24px;
 }
 
-.el-botones p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 24px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  padding-top: 20px;
-}
-
 .background {
   background-image: url(assets/contact-form.png);
-  padding: 90px 24px;
   border-top-left-radius: 90px;
   background-size: contain, cover;
   background-position: right;
@@ -688,4 +686,5 @@ textarea {
   align-items: stretch;
   justify-content: center;
   color: #fff;
+  margin-top: 21px;
 }
