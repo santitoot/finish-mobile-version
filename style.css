@@ -202,6 +202,21 @@ nav > a {
   margin-top: 108px;
 }
 
+
+.el-botones p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
 .profile > main > p {
   color: #344563;
 }
@@ -644,20 +659,6 @@ textarea {
   cursor: pointer;
   margin-top: 22px;
   margin-left: 24px;
-}
-
-.el-botones p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 24px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
 }
 
 .background {
