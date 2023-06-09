@@ -613,10 +613,10 @@ h3 {
 }
 
 .contact-me {
-  position: absolute;
   width: 100%;
   background: #6070ff;
   border-top-left-radius: 80px;
+  display: flex;
 }
 
 .contact-me h2 {
@@ -687,5 +687,8 @@ textarea {
   align-items: stretch;
   justify-content: center;
   color: #fff;
-  margin-top: 21px;
+}
+
+.container-white {
+  background-color: white;
 }
