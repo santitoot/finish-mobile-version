@@ -183,7 +183,6 @@
       </button>
     </div>
   </section>
-
   <section class="about-myself">
     <h4>About Myself</h4>
     <main>
@@ -232,28 +231,31 @@
       </div>
   </section>
 
+  <div class="container-white">
+ 
   <section class="contact-me">
-    
-    <form action="https://formspree.io/f/{form_id}" method="POST">
+      
+    <form action="https://formspree.io/f/xbjevbkv" method="POST">
       <div class="background">
-      <h2>contact-me</h2>
+      <h2>contact me</h2>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
         I’d love to help with it!</p>
       <label for="name">
-        <input type="text" id="name" placeholder="Lorem Ipsum" required maxlength="30">
+        <input type="text" id="name" name="name" placeholder="Enter your name..." required maxlength="30">
       </label>
       <label for="email">
-        <input type="email" id="message" placeholder="loremipsum@gmail.com" required/>
+        <input type="email" id="message" name="email" placeholder="Enter your email..." required/>
       </label>
       <label for="message-box">
-        <textarea id="message-box" placeholder="Please enter your message here" required maxlength="500"></textarea>
+        <textarea id="message-box" name="message" placeholder="Please enter your message here" required maxlength="500"></textarea>
       </label>
-      <button class="el-botones">
+      <button type="submit" class="el-botones" name="submit">
         <p>Get in touch</p>
       </button>
       </div>
     </form>
   </section>
+  </div>
 </body>
 
   
